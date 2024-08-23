@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white;
+}
+li {
+    font-size: 25px;
+}
+
+.Tip {
+    background-color: gray;
+}
+
+p {
+    font-size: 25px;
+}

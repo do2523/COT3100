@@ -68,11 +68,83 @@
     <h2>What is Contrapositive and Converse</h2>
     <img class="Smaller" src="img/ConverseContrapositive.png" alt="">
     <h2>What is the Law of Syllogism and Inference Modus Ponens</h2>
-    <img src="img/SyllogismAndModus.png" alt="" class="centered-image">
+    <table>
+        <thead>
+          <tr>
+            <th>Logical Rule</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Law of Syllogism</td>
+            <td>If p &rarr; q and q &rarr; r, then p &rarr; r.</td>
+          </tr>
+          <tr>
+            <td>Modus Ponens</td>
+            <td>If p &rarr; q and p, then q.</td>
+          </tr>
+        </tbody>
+      </table>
+      
 
     <h1>Bitwise Operations</h1>
     <h2>What are Bitwise Operators</h2>
     <p></p>
     <img width="1000px" src="./img/bitTable.png" alt="" class="centered-image">
+    <br>
+    <h2>Rules of Inference</h2>
+    <table>
+        <thead>
+          <tr>
+            <th>Rule Name</th>
+            <th>Symbolic Form</th>
+            <th>Explanation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Modus Ponens</td>
+            <td>p &rarr; q, p &vdash; q</td>
+            <td>If p is true and p &rarr; q is true, then q must be true.</td>
+          </tr>
+          <tr>
+            <td>Modus Tollens</td>
+            <td>p &rarr; q, &not;q &vdash; &not;p</td>
+            <td>If p &rarr; q is true and q is false, then p must be false.</td>
+          </tr>
+          <tr>
+            <td>Hypothetical Syllogism</td>
+            <td>p &rarr; q, q &rarr; r &vdash; p &rarr; r</td>
+            <td>If p &rarr; q and q &rarr; r, then p &rarr; r.</td>
+          </tr>
+          <tr>
+            <td>Disjunctive Syllogism</td>
+            <td>p &vee; q, &not;p &vdash; q</td>
+            <td>If p &vee; q is true and p is false, then q must be true.</td>
+          </tr>
+          <tr>
+            <td>Addition</td>
+            <td>p &vdash; p &vee; q</td>
+            <td>If p is true, then p &vee; q is true for any q.</td>
+          </tr>
+          <tr>
+            <td>Simplification</td>
+            <td>p &wedge; q &vdash; p</td>
+            <td>If p &wedge; q is true, then p is true.</td>
+          </tr>
+          <tr>
+            <td>Conjunction</td>
+            <td>p, q &vdash; p &wedge; q</td>
+            <td>If p is true and q is true, then p &wedge; q is true.</td>
+          </tr>
+          <tr>
+            <td>Resolution</td>
+            <td>p &vee; q, &not;p &vee; r &vdash; q &vee; r</td>
+            <td>If p &vee; q and &not;p &vee; r are true, then q &vee; r is true.</td>
+          </tr>
+        </tbody>
+      </table>
+      
 </body>
 </html>
